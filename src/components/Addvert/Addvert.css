@@ -1,0 +1,39 @@
+.addvert-slide{
+    display: flex;
+    justify-content: center;  
+}
+
+.addvert-slide__inner{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.addvert-slide img{
+    position: relative;
+}
+
+.advert-slide__content{
+    position: absolute;
+    z-index: 1;
+    max-width: 571px;
+    margin:98px 90px;
+    display: flex;
+    flex-direction: column;
+    gap:19px
+}
+
+.addvert-title{
+    font-weight: 900;
+    font-size: 51px;
+    line-height: 124%;
+    text-transform: uppercase;
+    color: #171819;
+}
+
+.addvert-text{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 168%
+}
+
+    

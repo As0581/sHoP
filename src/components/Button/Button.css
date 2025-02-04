@@ -1,0 +1,16 @@
+button{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 167%;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    gap:23px;
+    padding:23px 27px;
+    border-radius: 5px;
+    align-items: center;
+    max-width: 251px;
+
+}
