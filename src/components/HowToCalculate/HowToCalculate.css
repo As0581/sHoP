@@ -1,0 +1,67 @@
+
+
+.htc-inner{
+    display: flex;
+    background: linear-gradient(253deg, #0d99f8 0%, #21a0f8 4.58%, #54b5ff 27.35%, #0dbbf8 80.82%, #0ddbf8 100%);
+}
+
+.htc-title{
+    font-weight: 900;
+    font-size: 51px;
+    line-height: 124%;
+    text-transform: uppercase;
+    color: #fff;
+    max-width: 570px;
+    margin-bottom: 19px;
+}
+
+.htc-text{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 168%;
+    color: #fff;
+    max-width: 738px;
+    margin-bottom: 24px;
+}
+
+.htc-content{
+    padding:90px 98px 0 84px
+}
+
+.htc-advantages{
+    margin-bottom: 41px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 768px;
+}
+
+.htc-advantage{
+    display: flex;
+    align-items: center;
+    max-width:355px;
+}
+
+.htc-advantage__text{
+    font-weight: 600;
+font-size: 16px;
+line-height: 137%;
+color: #fff;
+}
+
+.htc-advantage__number{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    text-align: center;
+    color: #fff;
+    padding:23px 32px;
+    border-radius: 50%;
+    border:1px solid #fff;
+    margin-right: 20px;
+}
+
+
+.htc-image{
+    position: relative;
+    height: 631px;
+}

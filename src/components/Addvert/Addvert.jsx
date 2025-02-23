@@ -1,7 +1,11 @@
 import React from 'react';
 import addvert from "../images/addvert.jpg"
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import './Addvert.css'
 import Button from '../Button/Button';
 
@@ -9,11 +13,16 @@ import Button from '../Button/Button';
 export default function Addvert(){
   return (
     <Swiper
+    
+    modules={[Navigation, Pagination, A11y]}
+      spaceBetween={0}
+      navigation
+      pagination={{ clickable: true }}
       slidesPerView={1}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
-      <SwiperSlide className='addvert-slide'>
+      <SwiperSlide  className='addvert-slide'>
         <div className="addvert-slide__inner">
           <img src={addvert} alt="" />
           <div className="advert-slide__content">

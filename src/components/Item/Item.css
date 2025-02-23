@@ -1,0 +1,38 @@
+.item{
+    display: grid;
+
+}
+
+.item-img{
+    position: relative;
+    z-index: 1;
+    min-width: 318px;
+}
+
+.item-img--favorite{
+    z-index: 2;
+    position: absolute;
+    left: 280px;
+    top: 32px;
+}
+
+.item-name{
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 147%;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.item-price{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: #3c3c3c;
+}
+
+
+.swiper-pagination{
+    margin-top: 50px;
+	position: relative;
+}
